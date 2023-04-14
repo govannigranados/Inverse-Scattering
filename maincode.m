@@ -70,6 +70,7 @@ hold off
 subplot(1,2,2)
 surf(xs,xs,(Wh').^p)
 %colorbar
+shading interp
 hold on 
 plot(yhat(1,:),yhat(2,:),'--w','LineWidth',3) 
 axis('square')
